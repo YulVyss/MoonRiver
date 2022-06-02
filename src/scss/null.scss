@@ -1,0 +1,128 @@
+$minWidth: 320px;
+$maxWidth: 1440;
+$maxWidthContainer: 1440;
+$md1: $maxWidthContainer + 20;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+$fontMain: FuturaPT;
+$fontTitle: Forum;
+$fontSubtitle: Segoe UI Light;
+
+// colors
+$black: #272727;
+$lightGray: #ededed;
+$gray: #c2c2c2;
+$gold: #efc58b;
+
+* {
+	scroll-behavior: smooth;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	min-width: $minWidth;
+}
+body {
+	line-height: 1;
+	font-family: $fontMain;
+	background-color: #ffffff;
+	//text-rendering: optimizeLegibility;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: $fontMain;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+//-webkit-overflow-scrolling: touch;
+//animation-play-state: paused !important;
+@font-face {
+	font-family: Segoe UI Bold;
+	font-display: swap;
+	src: url("../fonts/SegoeUIBold.ttf") format("ttf");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Segoe UI Italic;
+	font-display: swap;
+	src: url("../fonts/SegoeUIItalic.ttf") format("ttf");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Segoe UI;
+	font-display: swap;
+	src: url("../fonts/SegoeUI.ttf") format("ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Segoe UI Light;
+	font-display: swap;
+	src: url("../fonts/SegoeUILight.ttf") format("ttf");
+	font-weight: 300;
+	font-style: normal;
+}
